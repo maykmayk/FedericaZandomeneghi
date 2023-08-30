@@ -83,6 +83,7 @@ li:hover {
 .workTitle {
     font-size: 25vmin;
     letter-spacing: -8px;
+    line-height: 120%;
 }
 
 .imgContWorks{
