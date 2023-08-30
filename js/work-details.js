@@ -44,6 +44,22 @@ function loadWorkDetails(workId) {
                 "./asset/images/sindone/15.png",
             ], 
         },
+		autoritratto: {
+			name: "Autoritratto",
+			subName: "",
+            text: "Prima ipotesi<br>Olio su tela di canapa preparata con garze sterili, 40x50 cm, 2023<br>Seconda ipotesi<br>Olio su tela preparata nera, 20x55 cm, 2023<br>Terza ipotesi<br>Olio su tela di canapa non preparata con inserti di garze, 50x50 cm, 2023<br>Ipotesi finale<br>Olio su tela di canapa preparata con garze sterili e inserto di tela ghinea, 50x70 cm, 2023",
+            images: [
+                "",
+            ], 
+        },
+		senzaTitolo: {
+			name: "Senza Titolo (Rahmanos)",
+			subName: "Disegno su gesso, 30x30cm e 20x35cm, 2022",
+            text: "Questa serie nasce dalla personale ricerca del mio segno. Segno che su carta, da armonioso è diventato sempre più duro, rapido e sintetico fino a essere quasi tagliente; sfruttando questa sua caratteristica ho trasferito l’indagine su un altro tipo di supporto, certamente non tradizionale nel campo del disegno. Lasciandomi guidare dal segno stesso, sono arrivata a toccare una tematica che non mi è mai stata chiara: la Compassione, nei miei confronti e nei confronti dell’Altro. Rahmanos, la parola ebraica per “Compassione”: ciò che più mi affascinato di essa è il fatto che la sua radice indica l’esperienza provata dalla madre che sente il bambino muoversi nel grembo. La scelta del soggetto è stata dunque frutto di entrambi i fattori, oltre alla lunga analisi del segno e della pennellata utilizzati da Mantegna, Bellini, Grünewald e Michelangelo (unico ingrandimento scultoreo).",
+            images: [
+                "",
+            ], 
+        },
     }
 
 	const work = workDetails[workId];
