@@ -68,6 +68,11 @@ li:hover {
     overflow-y: scroll;
 }
 
+.heroImg{
+    max-width: 50vmin;
+    aspect-ratio: 1/1;
+}
+
 .titleHero{
     font-size: 10vmin;
 }
