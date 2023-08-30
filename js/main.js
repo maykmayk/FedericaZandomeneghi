@@ -5,6 +5,13 @@ _app.randomImgHome = () => {
     let images = [
         "./asset/images/zando.png",
         "./asset/images/zando2.png",
+        "./asset/images/oggetto/0.jpg",
+        "./asset/images/oggetto/4.jpg",
+        "./asset/images/oggetto/9.jpg",
+        "./asset/images/puntoDiDomanda/10.jpg",
+        "./asset/images/puntoDiDomanda/12.jpg",
+        "./asset/images/puntoDiDomanda/14.jpg",
+        "./asset/images/Sindone/15.png",
     ];
     let randomIndex = Math.floor(Math.random() * images.length); // Generate a random index
     cont.src = images[randomIndex]; // Set the src attribute to the randomly selected image URL

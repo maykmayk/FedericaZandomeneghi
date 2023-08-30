@@ -11,7 +11,9 @@
 </head>
 <body>
     <div class="generalContainer">
-        
+        <div class="position-absolute top-50 start-50 translate-middle heroImg">
+            <img src="" id="imgHome" class="imgFit">
+        </div>
         <div class="vh-100 d-flex align-items-start flex-column">
             <div class="pt-2 mb-auto w-100 d-flex justify-content-between fs-5">
                 <div id="index"><a href="./index.html">INDEX</a></div>
@@ -19,21 +21,13 @@
                 <div id="about"><a href="./about.html">ABOUT</a></div>
             </div>
             <div class="pb-2 w-100 text-center instrumentalSerif titleHero endMargin">
-                <main id="swup" class="transition-fade">
-                    <div class="position-absolute top-50 start-50 translate-middle heroImg">
-                        <img src="" id="imgHome" class="imgFit">
-                    </div>
                 Federica Zandomeneghi
-                </main>
             </div>
         </div>
     </div>
 
-    <script src="./js/main.js"></script>
-    <script type="module">
-        import Swup from 'https://unpkg.com/swup@4?module';
-        const swup = new Swup();
-    </script>
+    <script src="./js/main.js"  type="module"></script>
+
 </body>
 
 </html>

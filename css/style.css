@@ -18,6 +18,7 @@ body {
     font-family: "FreeSans";
     letter-spacing: -.5px;
     color: #000;
+    --swup-fade-theme-duration: .4s;
 }
 
 a {
