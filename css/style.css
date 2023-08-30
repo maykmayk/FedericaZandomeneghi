@@ -80,6 +80,10 @@ li:hover {
     height: 40vh;
 }
 
+.dividerHalf{
+    height: 20vh;
+}
+
 .workTitle {
     font-size: 25vmin;
     letter-spacing: -8px;
